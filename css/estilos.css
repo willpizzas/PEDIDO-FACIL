@@ -9,7 +9,7 @@ body {
   background-attachment: fixed;
 }
 .formulario {
-  width: 400px;
+  width: 500px;
   max-width: 100%;
   margin: auto;
   margin-top: 30px;
@@ -75,14 +75,14 @@ body {
   margin: 5px;
 }
 .formulario__submit {
-  background: rgba(1, 255, 1, 0.979);
+  background: rgba(1, 255, 1, 0.74);
   color: rgb(255, 255, 255);
   padding: 10px 20px;
   cursor: pointer;
-  border: none;
+  border: rgba(8, 8, 8, 0.74);
   border-radius: 20px;
   display: block;
-  width: 75%;
+  width: 100%;
   font-size: 5, 3em;
 }
 
