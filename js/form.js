@@ -16,7 +16,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 
   let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
 		*-WILL PIZZAS CONVERSAS-*%0A
-		*ENVIANDO PEDIDO*%0A%0A
+		*ENVIANDO PEDIDO WILL*%0A%0A
 
 		*COMIDA*%0A
 		*  *%0A
