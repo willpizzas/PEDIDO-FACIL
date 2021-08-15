@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WILL PIZZAS</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="logo.jpg" class="imgLogo" />
+
+      <h1 class="formulario__titulo">FAIZ O PEDIDO RAPIDO AQUI!!</h1>
+      <h3 class="formulario__subtitulo">Preencha os espaços e ENVIA..</h3>
+      <p class="formulario__parrafo">
+        Depois de enviar para nosso whatsapp, lapso minimo 40-50 minutos
+      </p>
+
+      <label for="cliente" class="formulario__label">ESCREVA SEU PEDIDO</label>
+      <input
+        id="cliente"
+        type="text"
+        class="formulario__input"
+        placeholder=""
+      />
+      <div class="fondo_lightbox cancel_confirm_lb" id="fondo_lightbox_confirm" aria-hidden="true"></div>
+
+      <label for="fecha" class="formulario__label"
+        >INDIQUE SUA BEBIDA</label
+      >
+      <input
+        id="fecha"
+        type="text"
+        class="formulario__input"
+        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      />
+
+      <label for="hora" class="formulario__label"
+        >DINHEIRO O CARTAO?</label
+      >
+      <select id="hora" type="text" class="formulario__input"   <option>CARTÃO 
+        <option>CARTÃO DEBITO</option>
+        <option>CARTÃO CREDITO</option>
+        <option>TROCO/P10RS</option>
+        <option>TROCO/P15RS</option>
+        <option>TROCO/P20RS</option>
+        <option>TROCO/P30RS</option>
+        <option>TROCO/P40RS</option>
+        <option>TROCO/P50RS</option>
+        <option>TROCO/P60RS</option>
+        <option>TROCO/P70RS</option>
+        <option>TROCO/P80RS</option>
+        <option>TROCO/P90RS</option>
+        <option>TROCO/P100RS</option>
+        <option>TROCO/P150RS</option>
+        <option>TROCO/P200RS</option>
+  
+
+      </select>
+      
+      <label for="empleado" class="formulario__label"
+        >ENDERECO EXATO,Rua,barrio,numero.</label
+      >
+      <input id="empleado" type="text" class="formulario__input">
+        
+      </select>
+
+      <label for="servicio" class="formulario__label"
+        >:::OBSERVACOES:::</label
+      >
+      <input id="servicio" type="type" class="formulario__input">
+
+      </select>
+
+      <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+    </form>
+    <script src="js/form.js"></script>
+  </body>
+</html>
