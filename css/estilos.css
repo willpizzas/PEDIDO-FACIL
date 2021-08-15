@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-image: url(fondo.jpg);
-  background-size: 100vw 100vh;
+  background-size: 50vw 70vh;
   background-attachment: fixed;
 }
 .formulario {
@@ -81,7 +81,7 @@ body {
   cursor: pointer;
   border: rgba(8, 8, 8, 0.74);
   border-radius: 20px;
-  display: block;
+  display: inside;
   width: 100%;
   font-size: 5, 3em;
 }
