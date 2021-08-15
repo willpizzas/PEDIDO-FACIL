@@ -28,7 +28,8 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${empleado}%0A
 		*OBSERV...*%0A
 		${servicio}
-    *AGUARDANDO PARA CONFERIR*%0A`;
+   
+   *AGUARDANDO PARA CONFERIR*%0A`;
 
   if (cliente === "" || fecha === ""|| empleado === "") {
     resp.classList.add("fail");
