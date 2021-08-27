@@ -2,7 +2,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   e.preventDefault();
 
   //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-  let telefono = "553496809209";
+  let telefono = "5534996809209";
 
   let cliente = document.querySelector("#cliente").value;
   let fecha = document.querySelector("#fecha").value;
@@ -29,8 +29,8 @@ document.querySelector("#submit").addEventListener("click", e => {
 		*ENDERECO*%0A
 		${empleado}%0A
 		*OBSERV...*%0A
-		${servicio}
-		*AGUARDANDO PARA CONFERIR*%0A*POR FAVOR ESPERO O RETORNO..*%0A%0A`
+		${servicio}|
+    *AGUARDANDO PARA CONFERIR*%0A*POR FAVOR ESPERO O RETORNO..*%0A%0A`
 
 
   if (cliente === "" || empleado === "") {
