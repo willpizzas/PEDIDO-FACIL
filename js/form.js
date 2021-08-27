@@ -32,7 +32,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${servicio}
 		|
     
-    *AGUARDANDO PARA CONFERIR*%0A<br>*POR FAVOR ESPERO O RETORNO..*%0A%0A`
+    *AGUARDANDO PARA CONFERIR*%0A|*POR FAVOR ESPERO O RETORNO..*%0A%0A`
 
 
   if (cliente === "" || empleado === "") {
