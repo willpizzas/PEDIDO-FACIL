@@ -30,7 +30,8 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${empleado}%0A
 		*OBSERV...*%0A
 		${servicio}                                                                      
-    *______________________AGUARDANDO PARA CONFERIR*%0A*POR FAVOR ESPERO O RETORNO..*%0A%0A`
+    *_____________________POR FAVOR ESPERE NOSSO RETORNO ESTAMOS 👀 SEU PEDIDO.😊.*%0A%0A
+    *RESPONDEREMOS EM BREVE🕑👨‍🍳🍕🛵*%0A%0A`
 
 
   if (cliente === "" || empleado === "") {
