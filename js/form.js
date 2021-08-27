@@ -19,9 +19,9 @@ document.querySelector("#submit").addEventListener("click", e => {
 		*PEDIDOS ONLINE*%0A%0A
 
 		*COMIDA*%0A
-    *  *%0A
+   		 *  *%0A
 		${cliente}%0A
-    *  *%0A
+    		*  *%0A
 		*BEBIDA*%0A
 		${fecha}%0A
 		*PAGAMENTO*%0A
@@ -30,7 +30,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${empleado}%0A
 		*OBSERV...*%0A
 		${servicio}|
-    *AGUARDANDO PARA CONFERIR*%0A*POR FAVOR ESPERO O RETORNO..*%0A%0A`
+    *                         AGUARDANDO PARA CONFERIR*%0A*POR FAVOR ESPERO O RETORNO..*%0A%0A`
 
 
   if (cliente === "" || empleado === "") {
