@@ -19,9 +19,9 @@ document.querySelector("#submit").addEventListener("click", e => {
 		*PEDIDOS ONLINE*%0A%0A
 
 		*COMIDA*%0A
-    		*  *%0A
+    *  *%0A
 		${cliente}%0A
-    		*  *%0A
+    *  *%0A
 		*BEBIDA*%0A
 		${fecha}%0A
 		*PAGAMENTO*%0A
