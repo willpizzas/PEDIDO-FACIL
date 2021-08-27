@@ -15,13 +15,13 @@ document.querySelector("#submit").addEventListener("click", e => {
   resp.classList.remove("send");
 
   let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
-		*-WILL PIZZAS-*%0A
-		*PEDIDOS ONLINE*%0A%0A
+		*-🍕WILL PIZZAS🍕-*%0A
+		*PEDIDOS ONLINE📝*%0A%0A
 
 		*COMIDA*%0A
-   		 *  *%0A
+   		*🍕🍔🍟*%0A
 		${cliente}%0A
-    		*  *%0A
+    		*🍕🍔🍟*%0A
 		*BEBIDA*%0A
 		${fecha}%0A
 		*PAGAMENTO*%0A
