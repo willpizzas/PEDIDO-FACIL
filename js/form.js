@@ -30,7 +30,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${empleado}%0A
 		*OBSERV...*%0A
 		${servicio}
-		<br>
+		|
     
     *AGUARDANDO PARA CONFERIR*%0A<br>*POR FAVOR ESPERO O RETORNO..*%0A%0A`
 
